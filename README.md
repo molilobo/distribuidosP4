@@ -45,10 +45,10 @@ Dentro del taller hay un pipeline de 4 fases conectadas por canales. Cada fase t
 
 ## 3. Estructura de archivos
 - **servidor.go** — Broker TCP 
- mutua.go — Simulador de la mutua 
-taller.go — Lógica del taller (archivo principal)
-types.go — Tipos y estructuras de datos
-taller_test.go — Tests 
+ - **mutua.go** — Simulador de la mutua 
+- **taller.go** — Lógica del taller (archivo principal)
+- **types.go** — Tipos y estructuras de datos
+- **taller_test.go** — Tests 
 ---
 
 ## 4. Cómo ejecutar
