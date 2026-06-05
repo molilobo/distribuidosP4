@@ -1,0 +1,28 @@
+=== RUN   TestComparativas
+=== RUN   TestComparativas/T1_A10_B10_C10_P6_M3
+    taller_test.go:138: Coches: 30 (A=10 B=10 C=10) | Plazas=6 Mecánicos=3
+    taller_test.go:140: Media=3.3087015s | Min=3.3077728s | Max=3.3096622s | Por coche=110.29005ms
+=== RUN   TestComparativas/T2_A20_B5_C5_P6_M3
+    taller_test.go:138: Coches: 30 (A=20 B=5 C=5) | Plazas=6 Mecánicos=3
+    taller_test.go:140: Media=4.206461166s | Min=4.2051572s | Max=4.2078011s | Por coche=140.215372ms
+=== RUN   TestComparativas/T3_A5_B5_C20_P6_M3
+    taller_test.go:138: Coches: 30 (A=5 B=5 C=20) | Plazas=6 Mecánicos=3
+    taller_test.go:140: Media=2.2066614s | Min=2.2062979s | Max=2.2069126s | Por coche=73.55538ms
+=== RUN   TestComparativas/T4_A10_B10_C10_P4_M4
+    taller_test.go:138: Coches: 30 (A=10 B=10 C=10) | Plazas=4 Mecánicos=4
+    taller_test.go:140: Media=4.608513866s | Min=4.6078752s | Max=4.6093308s | Por coche=153.617128ms
+=== RUN   TestComparativas/T5_A20_B5_C5_P4_M4
+    taller_test.go:138: Coches: 30 (A=20 B=5 C=5) | Plazas=4 Mecánicos=4
+    taller_test.go:140: Media=6.212302466s | Min=6.2101335s | Max=6.2137991s | Por coche=207.076748ms
+=== RUN   TestComparativas/T6_A5_B5_C20_P4_M4
+    taller_test.go:138: Coches: 30 (A=5 B=5 C=20) | Plazas=4 Mecánicos=4
+    taller_test.go:140: Media=3.0141607s | Min=3.012857s | Max=3.0156873s | Por coche=100.472023ms
+--- PASS: TestComparativas (70.67s)
+    --- PASS: TestComparativas/T1_A10_B10_C10_P6_M3 (9.93s)
+    --- PASS: TestComparativas/T2_A20_B5_C5_P6_M3 (12.62s)
+    --- PASS: TestComparativas/T3_A5_B5_C20_P6_M3 (6.62s)
+    --- PASS: TestComparativas/T4_A10_B10_C10_P4_M4 (13.83s)
+    --- PASS: TestComparativas/T5_A20_B5_C5_P4_M4 (18.64s)
+    --- PASS: TestComparativas/T6_A5_B5_C20_P4_M4 (9.04s)
+PASS
+ok      practica4/cliente       70.696s
